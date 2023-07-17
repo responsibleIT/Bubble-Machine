@@ -162,6 +162,24 @@ If you want to make a preliminary test, se a websocket client. There are many av
 ## Planning
 The team recieves a briefing with the client in the first week. Every week, the team demonstrates a prototype to the client and discusses the next steps. You will work closely with the UX students to discuss designs.
 
+## Other Projects
+These projects are student based derivatives of the Bubble Machine, mostly focused on the design aspect for the Information Design course:
+
+### Bubble Machine Team 5
+https://github.com/xiaonanpols21/filter-bubble-2 
+
+https://filter-bubble-2.vercel.app 
+
+### Bubble Machine Team 6
+https://github.com/romyjkk/project-information-design 
+
+https://project-information-design-puce.vercel.app/ 
+
+### Bubble Machine Team 7
+https://filterbubbel.vercel.app/ 
+
+https://github.com/robin500818167/Filterbubbel 
+
 ## Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
