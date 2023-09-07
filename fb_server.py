@@ -85,8 +85,7 @@ rs_alg_choice = UserSettableParameter('choice','User Behaviour',value='2', choic
 rs_challenge_choice = UserSettableParameter('choice','Challenge',value='False', choices=[False,True])
 network_choice = UserSettableParameter('choice','Network',value='predefined',\
                                               choices=['predefined',\
-                                                       'socfb-Haverford76.mtx',
-                                                       'socfb-Haverford76-copy.mtx'])
+                                                       'socfb-Haverford76.mtx'])
 hide_friends_choice = UserSettableParameter('checkbox', 'Hide Friends', value=False)
 hide_item_choice = UserSettableParameter('checkbox', 'Hide Itemlinks', value=False)
 
