@@ -1,8 +1,6 @@
 # Bubble Machine
 The Bubble Machine is an online simulator that allows journalists to mimic the spread of disinformation - also known as _Fake News_ - through social media networks. The machine helps journalists and the public understand the mechanisms of disinformation. Through interactions with the Bubble Machine interface, journalists understand the interplay between personal preferences and social and technological factors.
 
-In this assignment you will work with international students form the minor **User Experience Design**. They will design the User Experience and User Interface of the application.
-
 Keywords: Interaction, Data Visualisation, API, Algorithms, Social networks, Journalism, Fake News
 
 ![Bubblemachine](https://github.com/cmda-minor-web-cases/bubblemachine/blob/main/assets/bubblemachine.png?raw=true)
