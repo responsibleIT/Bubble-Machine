@@ -29,6 +29,7 @@ The Responsible IT research group at the Hogeschool van Amsterdam conducts acade
 - How the model works - paper on the [triple-filter-bubble model](https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjso.12286).
 - [Presentation of the model - ppt](https://icthva-my.sharepoint.com/:p:/g/personal/y_westplat_hva_nl/ETcNaQZ3l-xFllm7sp498MMBobEoU9Szykc7UC9C9vyd1A?e=4AKhel)
 
+<!--
 ## Design challenge
 The Responsible IT computer model is currently not accessible to the public. The resulting outcome of this project is a public web application that is a pleasure to use. The researchers have created a web API and data source for the model. Students from the minor User Experience design will design the User Experience and a UI. 
 
@@ -44,6 +45,8 @@ As a journalist, I can change various parameters of the simulator so i can combi
 
 **3 data visualisatinos**
 As a journalist, I can run a simulation so I can evaluate the interplay between cognitive filters, social network interaction and recommender systems in  visualisations. 
+
+ -->
 
 
 **Technical Realisation**
