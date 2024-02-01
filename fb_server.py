@@ -2,7 +2,7 @@ import numpy as np
 from mesa.visualization.modules import TextElement
 from fb_model import FBModel
 from mesa.visualization.ModularVisualization import ModularServer
-from mesa.visualization.UserParam import UserSettableParameter
+from mesa.visualization.UserParam import NumberInput, Slider, Checkbox, Choice, StaticText
 from mesa.visualization.modules import ChartModule
 
 from visualization.modules.XYScaledNetworkModule import XYScaledNetworkModule
@@ -67,27 +67,27 @@ class InfoTextElement(TextElement):
 
 grid = XYScaledNetworkModule(network_portrayal, 730, 730)
 
-number_of_agents_slider = UserSettableParameter('slider','Number of users', 30, 2, 500, 1)
-num_friends_slider = UserSettableParameter('slider','Number of friends', 5, 0, 100, 1)
-num_steps_per_day_slider = UserSettableParameter('slider','steps to count a day', 1, 0, 100, 1)
-num_items_per_day_slider = UserSettableParameter('slider','Produced items per day', 10, 0, 100, 1)
-max_num_item_links_slider = UserSettableParameter('slider','Maximum number of item links',20, 1, 100, 1)
-num_exposed_items_person_day_slider = UserSettableParameter('slider','Number of exposed items per person, per day', 5, 1, 100, 1)
-latitude_acceptance_slider = UserSettableParameter('slider','Latitude of acceptance', 0.3, 0, 2, 0.02)
-sharpness_slider = UserSettableParameter('slider','Sharpness', 20, 0, 50, 0.5)
-probability_post_social_net_slider = UserSettableParameter('slider','Probability of posting items on the social network', 0.3, 0, 1, 0.01)
-user_behaviour_choice = UserSettableParameter('choice','User Behaviour',value='RS_Social_Network',\
+number_of_agents_slider = Slider('Number of users', 30, 2, 500, 1)
+num_friends_slider = Slider('Number of friends', 5, 0, 100, 1)
+num_steps_per_day_slider = Slider('steps to count a day', 1, 0, 100, 1)
+num_items_per_day_slider = Slider('Produced items per day', 10, 0, 100, 1)
+max_num_item_links_slider = Slider('slider','Maximum number of item links',20, 1, 100, 1)
+num_exposed_items_person_day_slider = Slider('Number of exposed items per person, per day', 5, 1, 100, 1)
+latitude_acceptance_slider = Slider('Latitude of acceptance', 0.3, 0, 2, 0.02)
+sharpness_slider = Slider('Sharpness', 20, 0, 50, 0.5)
+probability_post_social_net_slider = Slider('Probability of posting items on the social network', 0.3, 0, 1, 0.01)
+user_behaviour_choice = Choice('User Behaviour',value='RS_Social_Network',\
                                               choices=['Individual_Search',\
                                                        'Individual_Search_Social_Network', \
                                                        'RS_Social_Network', \
                                                        'Recommendation'])
-rs_alg_choice = UserSettableParameter('choice','User Behaviour',value='2', choices=[1,2])
-rs_challenge_choice = UserSettableParameter('choice','Challenge',value='False', choices=[False,True])
-network_choice = UserSettableParameter('choice','Network',value='predefined',\
+rs_alg_choice = Choice('User Behaviour',value='2', choices=[1,2])
+rs_challenge_choice = Choice('choice','Challenge',value='False', choices=[False,True])
+network_choice = Choice('Network',value='predefined',\
                                               choices=['predefined',\
                                                        'socfb-Haverford76.mtx'])
-hide_friends_choice = UserSettableParameter('checkbox', 'Hide Friends', value=False)
-hide_item_choice = UserSettableParameter('checkbox', 'Hide Itemlinks', value=False)
+hide_friends_choice = Checkbox('checkbox', 'Hide Friends', value=False)
+hide_item_choice = Checkbox('checkbox', 'Hide Itemlinks', value=False)
 
 dist_between_friends_graph = ChartModule(
     [
